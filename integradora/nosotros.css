@@ -1,0 +1,76 @@
+.container{
+    width: 100em;
+}
+
+.container::before{
+    content: "";
+    position: absolute;
+    height: 100em;
+    width: 100em;
+}
+
+.infor h1{
+    margin-bottom: 5px;
+    font-size: 50px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.infor .parrafo{
+    width: 60em;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    font-size: 21.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagen{
+    width: 13em;
+    border-radius: 5px;
+    border: 3px solid red;
+    display: block;
+    padding: 50px;
+}
+
+.imagen:hover{
+    transform: scale(1.2);
+}
+ 
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+ 
+}
+.contenedor{
+    margin: auto;
+}
+
+.menu{
+    background-color:red;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.lista{
+    color:rgb(247, 244, 244);
+    justify-content: center;
+}
+.lista li{
+    font-size: 1em;
+    list-style: none;
+    margin-right: 25px;
+}
+
+.ancla{
+    text-align: center;
+    color: white;
+    text-decoration-line: none;
+    justify-content: right;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
